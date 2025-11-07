@@ -1,0 +1,12 @@
+# Fet per Daniel Paul Ivan.
+# Also known as ysuyzuysu.
+
+# Primer crearem la pregunta dins d'una variable
+
+mida_lateral = input("Introdueix la mida lateral: ")
+
+# Convertim el la respota en un int i imprimim el resultat calculat.
+# El f{string} ens ajuda a no utilitzar "+" cada vegada que volem ficar
+# una variable en un string, apart, se veu millor :D.
+
+print(f"{int(mida_lateral)**2} és la mida del area del quadrat")
