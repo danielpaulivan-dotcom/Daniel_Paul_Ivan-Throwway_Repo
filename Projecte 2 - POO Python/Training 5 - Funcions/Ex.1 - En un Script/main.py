@@ -25,8 +25,7 @@ def calculadora():
     print(f"La resta dels dos números: {primer_numero - segon_numero}")
     print(f"La multiplicació dels dos números: {primer_numero * segon_numero}")
     print(f"La divisió dels dos números: {primer_numero / segon_numero}")
-    
-
+     
 calculadora()
 
 # Training 2 - Ex.3
