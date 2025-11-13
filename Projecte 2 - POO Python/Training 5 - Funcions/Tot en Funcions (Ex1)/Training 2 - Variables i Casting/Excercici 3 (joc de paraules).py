@@ -1,16 +1,14 @@
 # Fet per Daniel Paul Ivan.
 # Also known as ysuyzuysu.
 
-# dEfinim la funció per a demanar les paraules:
+# Funcio que demana tres paraules i les utilitza en una frase:
 
-def obtenir_paraules():
+def joc_de_paraules():
     primera_paraula = input("Introdueix un nom: ")
     segona_paraula = input("Introdueix un adejectiu : ")
     tercera_paraula = input("Introdueix un altre adjectiu: ")
 
-    return primera_paraula, segona_paraula, tercera_paraula
-
-    print("")
+    print("Has introduït les paraules:", primera_paraula, segona_paraula, tercera_paraula)
     print(f"{primera_paraula} és un politic español {segona_paraula} y participa en un partit politic {tercera_paraula}.")
 
-obtenir_paraules()
+joc_de_paraules()

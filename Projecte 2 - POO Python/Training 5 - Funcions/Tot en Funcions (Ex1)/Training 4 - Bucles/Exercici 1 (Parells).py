@@ -8,3 +8,5 @@ def nombres_parells():
             print(nombre)  
         else:
             continue 
+    
+nombres_parells()
