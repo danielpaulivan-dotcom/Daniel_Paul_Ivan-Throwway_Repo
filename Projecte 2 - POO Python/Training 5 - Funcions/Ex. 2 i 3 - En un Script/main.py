@@ -1,16 +1,15 @@
+# Fet per Daniel Paul Ivan
+# Also known as ysuyzuysu.
+
 # Training 1 - Ex.1
 def hola_mon():
-    print("Hola món")
-
-hola_mon()
+        print("Hola món")
 
 # Training 2 - Ex.1
 def calcular_area_quadrat():
     mida_lateral = input("Introdueix la mida lateral: ")
 
     print(f"{int(mida_lateral)**2} és la mida del area del quadrat")
-
-calcular_area_quadrat()
 
 # Training 2 - Ex.2
 def calculadora():
@@ -25,8 +24,6 @@ def calculadora():
     print(f"La resta dels dos números: {primer_numero - segon_numero}")
     print(f"La multiplicació dels dos números: {primer_numero * segon_numero}")
     print(f"La divisió dels dos números: {primer_numero / segon_numero}")
-     
-calculadora()
 
 # Training 2 - Ex.3
 def joc_de_paraules():
@@ -37,8 +34,6 @@ def joc_de_paraules():
     print("Has introduït les paraules:", primera_paraula, segona_paraula, tercera_paraula)
     print(f"{primera_paraula} és un politic español {segona_paraula} y participa en un partit politic {tercera_paraula}.")
 
-joc_de_paraules()
-
 # Training 2 - Ex.4
 def numero_float_fun():
     primer_numero = float(input("Introdueix el primer numero no enter: "))
@@ -48,7 +43,6 @@ def numero_float_fun():
 
     print(resultat)
 
-numero_float_fun()
 
 # Training 3 - Ex.1
 def edat_usuari():
@@ -59,8 +53,6 @@ def edat_usuari():
 
     elif int(edad) < 18:
         print("Ets menor d'edat.")
-
-edat_usuari()
 
 # Training 3 - Ex.2
 def quin_es_major():
@@ -75,8 +67,6 @@ def quin_es_major():
     elif int(tercer_numero) >= int(primer_numero) and int(tercer_numero) >= int(segon_numero):
         print("El tercer número és el més gran.")
 
-quin_es_major()
-
 # Training 3 - Ex.3
 def positiu_o_no():
     numero = input("Escriu un número: ")
@@ -86,8 +76,6 @@ def positiu_o_no():
     elif int(numero) < 0:
         print("El número és negatiu.")
 
-positiu_o_no()
-
 # Training 4 - Ex.1
 def nombres_parells():
     for nombre in range(1, 201):
@@ -95,8 +83,6 @@ def nombres_parells():
             print(nombre)  
         else:
             continue 
-    
-nombres_parells()
 
 # Training 4 - Ex.2
 def hi_ha_un_deu():
@@ -116,8 +102,6 @@ def hi_ha_un_deu():
         if 0 <= nota < 10:
             print("No hi ha cap 10")
 
-hi_ha_un_deu()
-
 # Training 4 - Ex.3
 def hi_ha_nombre_negatiu():
     hi_ha_negatiu = False
@@ -132,4 +116,121 @@ def hi_ha_nombre_negatiu():
     else:
         print("No hi ha cap nombre negatiu")
 
-hi_ha_nombre_negatiu()
+import time
+
+print("Benvingut al meu script que conté totes les solucions dels exercicis de les diferents sessions de training.")
+
+time.sleep(5)
+
+print("Quina opció vols executar?")
+time.sleep(2)
+
+while True:
+    print("\n"
+      "1. Training 1 - Ex.1\n"
+      "2. Training 2 - Ex.1\n"
+      "3. Training 2 - Ex.2\n"
+      "4. Training 2 - Ex.3\n"
+      "5. Training 2 - Ex.4\n"
+      "6. Training 3 - Ex.1\n"
+      "7. Training 3 - Ex.2\n"
+      "8. Training 3 - Ex.3\n"
+      "9. Training 4 - Ex.1\n"
+      "10. Training 4 - Ex.2\n"
+      "11. Training 4 - Ex.3\n"
+      "\n"
+      "12. (S)ortir"
+      )
+    
+    time.sleep(0.5)
+    opcio_training = input("Introdueix el número de l'opció que vols executar (o '12' o '(S)ortir per acabar): ")
+# Training 1 - Ex.1
+
+    match opcio_training:
+        
+            case "1":
+                time.sleep(1)
+                print("Executant Training 1 - Ex.1...")
+                time.sleep(2)
+                hola_mon()
+                time.sleep(1)
+        
+            case "2":
+                time.sleep(1)
+                print("Executant Training 2 - Ex.1...")
+                time.sleep(2)
+                calcular_area_quadrat()
+                time.sleep(1)
+        
+            case "3":
+                time.sleep(1)
+                print("Executant Training 2 - Ex.2...")
+                time.sleep(2)
+                calculadora()
+                time.sleep(1)
+        
+            case "4":
+                time.sleep(1)
+                print("Executant Training 2 - Ex.3...")
+                time.sleep(2)
+                joc_de_paraules()
+                time.sleep(1)
+        
+            case "5":
+                time.sleep(1)
+                print("Executant Training 2 - Ex.4...")
+                time.sleep(2)
+                numero_float_fun()
+                time.sleep(1)
+        
+            case "6":
+                time.sleep(1)
+                print("Executant Training 3 - Ex.1...")
+                time.sleep(2)
+                edat_usuari()
+                time.sleep(1)
+        
+            case "7":
+                time.sleep(1)
+                print("Executant Training 3 - Ex.2...")
+                time.sleep(2)
+                quin_es_major()
+                time.sleep(1)
+        
+            case "8":
+                time.sleep(1)
+                print("Executant Training 3 - Ex.3...")
+                time.sleep(2)
+                positiu_o_no()
+                time.sleep(1)
+        
+            case "9":
+                time.sleep(1)
+                print("Executant Training 4 - Ex.1...")
+                time.sleep(2)
+                nombres_parells()
+                time.sleep(1)
+        
+            case "10":
+                time.sleep(1)
+                print("Executant Training 4 - Ex.2...")
+                time.sleep(2)
+                hi_ha_un_deu()
+                time.sleep(1)
+        
+            case "11":
+                time.sleep(1)
+                print("Executant Training 4 - Ex.3...")
+                time.sleep(2)
+                hi_ha_nombre_negatiu()
+                time.sleep(1)
+    
+            case "S" | "s" | "12":
+                time.sleep(1)
+                print("Adeu!")
+                break
+        
+            case _:
+                time.sleep(1)
+                print("Opció no vàlida. Si us plau, intenta-ho de nou.")
+                time.sleep(1)
